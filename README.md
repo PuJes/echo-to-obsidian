@@ -20,6 +20,8 @@ No cloud transcription API required.
    Transcription runs locally with `faster-whisper`, so your recordings do not need to be sent to online LLM transcription services.
 2. **Cost control**  
    Open-source speech recognition is already strong. If you process content frequently, a local-first workflow can avoid recurring per-minute transcription fees.
+3. **Use your own LLM subscription for analysis**  
+   After transcription, you can run analysis with your preferred model stack (for example Codex or Claude) using subscriptions you already pay for, instead of buying another closed transcription product bundle.
 
 ```mermaid
 flowchart LR
