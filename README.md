@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 [![Local First](https://img.shields.io/badge/local--first-whisper-orange.svg)](https://github.com/SYSTRAN/faster-whisper)
 
+English | [简体中文](./README.zh-CN.md)
+
 Turn videos and audio into Obsidian-ready notes with:
 
 - embedded audio
