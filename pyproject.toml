@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "echo-to-obsidian"
+version = "0.1.0"
+description = "Local audio and video transcription to Obsidian notes with embedded audio and timestamp links."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "PuJes" }
+]
+keywords = ["obsidian", "transcription", "whisper", "audio", "video", "bilibili", "youtube"]
+dependencies = [
+  "faster-whisper>=1.2.0",
+]
+
+[project.scripts]
+echo2obs = "echo_to_obsidian.cli:main"
+echo2obs-batch = "echo_to_obsidian.batch:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
