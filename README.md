@@ -14,6 +14,13 @@ Turn videos and audio into Obsidian-ready notes with:
 
 No cloud transcription API required.
 
+## Why people pick this over SaaS tools
+
+1. **Privacy first**  
+   Transcription runs locally with `faster-whisper`, so your recordings do not need to be sent to online LLM transcription services.
+2. **Cost control**  
+   Open-source speech recognition is already strong. If you process content frequently, a local-first workflow can avoid recurring per-minute transcription fees.
+
 ```mermaid
 flowchart LR
     A["Local file / Video URL"] --> B["yt-dlp + ffmpeg"]
